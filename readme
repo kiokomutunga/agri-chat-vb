@@ -1,0 +1,9 @@
+User → Chatbot (OpenAI or custom logic)
+        ↓
+    Extracts symptoms
+        ↓
+  Sends to ML Model (your dataset-trained model)
+        ↓
+  Returns predicted disease + possible remedies
+        ↓
+ Chatbot formats the answer and replies naturally
